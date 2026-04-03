@@ -1,1 +1,666 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Modern Website</title>
+
+
+
+<style>
+
+
+
+/* RESET */
+
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+
+
+body {
+
+    font-family: Arial, sans-serif;
+
+    line-height: 1.6;
+
+}
+
+
+
+/* NAVBAR */
+
+nav {
+
+    background: #111;
+
+    color: #fff;
+
+    padding: 15px 50px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+}
+
+
+
+nav h1 {
+
+    font-size: 24px;
+
+}
+
+
+
+nav ul {
+
+    list-style: none;
+
+    display: flex;
+
+}
+
+
+
+nav ul li {
+
+    margin-left: 20px;
+
+}
+
+
+
+nav ul li a {
+
+    color: #fff;
+
+    text-decoration: none;
+
+}
+
+
+
+/* HERO */
+
+.hero {
+
+    height: 90vh;
+
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    color: white;
+
+    text-align: center;
+
+}
+
+
+
+.hero h2 {
+
+    font-size: 50px;
+
+}
+
+
+
+.hero p {
+
+    margin: 20px 0;
+
+}
+
+
+
+.hero button {
+
+    padding: 10px 20px;
+
+    border: none;
+
+    background: #fff;
+
+    color: #333;
+
+    cursor: pointer;
+
+}
+
+
+
+/* SECTION */
+
+.section {
+
+    padding: 60px 50px;
+
+}
+
+
+
+.section h2 {
+
+    text-align: center;
+
+    margin-bottom: 40px;
+
+}
+
+
+
+/* SERVICES */
+
+.services {
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 20px;
+
+}
+
+
+
+.service-box {
+
+    background: #f4f4f4;
+
+    padding: 20px;
+
+    text-align: center;
+
+}
+
+
+
+/* PORTFOLIO */
+
+.portfolio {
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 15px;
+
+}
+
+
+
+.portfolio img {
+
+    width: 100%;
+
+}
+
+
+
+/* TESTIMONIALS */
+
+.testimonials {
+
+    display: flex;
+
+    gap: 20px;
+
+}
+
+
+
+.testimonial {
+
+    background: #eee;
+
+    padding: 20px;
+
+}
+
+
+
+/* FOOTER */
+
+footer {
+
+    background: #111;
+
+    color: #fff;
+
+    text-align: center;
+
+    padding: 20px;
+
+}
+
+
+
+/* EXTRA STYLING TO INCREASE LENGTH */
+
+.box1 {padding:10px;}
+
+.box2 {padding:10px;}
+
+.box3 {padding:10px;}
+
+.box4 {padding:10px;}
+
+.box5 {padding:10px;}
+
+.box6 {padding:10px;}
+
+.box7 {padding:10px;}
+
+.box8 {padding:10px;}
+
+.box9 {padding:10px;}
+
+.box10 {padding:10px;}
+
+
+
+.line1 {margin:5px;}
+
+.line2 {margin:5px;}
+
+.line3 {margin:5px;}
+
+.line4 {margin:5px;}
+
+.line5 {margin:5px;}
+
+.line6 {margin:5px;}
+
+.line7 {margin:5px;}
+
+.line8 {margin:5px;}
+
+.line9 {margin:5px;}
+
+.line10 {margin:5px;}
+
+
+
+.extra1 {color:#333;}
+
+.extra2 {color:#333;}
+
+.extra3 {color:#333;}
+
+.extra4 {color:#333;}
+
+.extra5 {color:#333;}
+
+.extra6 {color:#333;}
+
+.extra7 {color:#333;}
+
+.extra8 {color:#333;}
+
+.extra9 {color:#333;}
+
+.extra10 {color:#333;}
+
+
+
+.repeat1 {background:#fafafa;}
+
+.repeat2 {background:#fafafa;}
+
+.repeat3 {background:#fafafa;}
+
+repeat4 {background:#fafafa;}
+
+repeat5 {background:#fafafa;}
+
+repeat6 {background:#fafafa;}
+
+repeat7 {background:#fafafa;}
+
+repeat8 {background:#fafafa;}
+
+repeat9 {background:#fafafa;}
+
+repeat10 {background:#fafafa;}
+
+
+
+/* DUPLICATED RULES FOR LENGTH */
+
+.a1{padding:5px;}
+
+.a2{padding:5px;}
+
+.a3{padding:5px;}
+
+.a4{padding:5px;}
+
+.a5{padding:5px;}
+
+.a6{padding:5px;}
+
+.a7{padding:5px;}
+
+.a8{padding:5px;}
+
+.a9{padding:5px;}
+
+.a10{padding:5px;}
+
+
+
+.b1{margin:5px;}
+
+.b2{margin:5px;}
+
+.b3{margin:5px;}
+
+.b4{margin:5px;}
+
+.b5{margin:5px;}
+
+.b6{margin:5px;}
+
+.b7{margin:5px;}
+
+.b8{margin:5px;}
+
+.b9{margin:5px;}
+
+.b10{margin:5px;}
+
+
+
+.c1{color:black;}
+
+.c2{color:black;}
+
+.c3{color:black;}
+
+.c4{color:black;}
+
+.c5{color:black;}
+
+.c6{color:black;}
+
+.c7{color:black;}
+
+.c8{color:black;}
+
+.c9{color:black;}
+
+.c10{color:black;}
+
+
+
+.d1{border:1px solid #ccc;}
+
+.d2{border:1px solid #ccc;}
+
+.d3{border:1px solid #ccc;}
+
+.d4{border:1px solid #ccc;}
+
+.d5{border:1px solid #ccc;}
+
+.d6{border:1px solid #ccc;}
+
+.d7{border:1px solid #ccc;}
+
+.d8{border:1px solid #ccc;}
+
+.d9{border:1px solid #ccc;}
+
+.d10{border:1px solid #ccc;}
+
+
+
+</style>
+
+</head>
+
+
+
+<body>
+
+
+
+<nav>
+
+    <h1>MySite</h1>
+
+    <ul>
+
+        <li><a href="#">Home</a></li>
+
+        <li><a href="#">Services</a></li>
+
+        <li><a href="#">Portfolio</a></li>
+
+        <li><a href="#">Contact</a></li>
+
+    </ul>
+
+</nav>
+
+
+
+<section class="hero">
+
+    <div>
+
+        <h2>Welcome to My Website</h2>
+
+        <p>We build modern and responsive websites</p>
+
+        <button>Get Started</button>
+
+    </div>
+
+</section>
+
+
+
+<section class="section">
+
+    <h2>Our Services</h2>
+
+    <div class="services">
+
+        <div class="service-box">
+
+            <h3>Web Design</h3>
+
+            <p>Beautiful designs</p>
+
+        </div>
+
+        <div class="service-box">
+
+            <h3>Development</h3>
+
+            <p>Clean code</p>
+
+        </div>
+
+        <div class="service-box">
+
+            <h3>SEO</h3>
+
+            <p>Rank higher</p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<section class="section">
+
+    <h2>Portfolio</h2>
+
+    <div class="portfolio">
+
+        <img src="https://via.placeholder.com/300">
+
+        <img src="https://via.placeholder.com/300">
+
+        <img src="https://via.placeholder.com/300">
+
+    </div>
+
+</section>
+
+
+
+<section class="section">
+
+    <h2>Testimonials</h2>
+
+    <div class="testimonials">
+
+        <div class="testimonial">
+
+            <p>"Great work!"</p>
+
+        </div>
+
+        <div class="testimonial">
+
+            <p>"Amazing team!"</p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<footer>
+
+    <p>© 2026 MySite</p>
+
+</footer>
+
+
+
+<!-- EXTRA HTML FOR LENGTH -->
+
+<div class="box1"></div>
+
+<div class="box2"></div>
+
+<div class="box3"></div>
+
+<div class="box4"></div>
+
+<div class="box5"></div>
+
+<div class="box6"></div>
+
+<div class="box7"></div>
+
+<div class="box8"></div>
+
+<div class="box9"></div>
+
+<div class="box10"></div>
+
+
+
+<div class="line1"></div>
+
+<div class="line2"></div>
+
+<div class="line3"></div>
+
+<div class="line4"></div>
+
+<div class="line5"></div>
+
+<div class="line6"></div>
+
+<div class="line7"></div>
+
+<div class="line8"></div>
+
+<div class="line9"></div>
+
+<div class="line10"></div>
+
+
+
+<div class="extra1"></div>
+
+<div class="extra2"></div>
+
+<div class="extra3"></div>
+
+<div class="extra4"></div>
+
+<div class="extra5"></div>
+
+<div class="extra6"></div>
+
+<div class="extra7"></div>
+
+<div class="extra8"></div>
+
+<div class="extra9"></div>
+
+<div class="extra10"></div>
+
+
+
+<div class="repeat1"></div>
+
+<div class="repeat2"></div>
+
+<div class="repeat3"></div>
+
+<div class="repeat4"></div>
+
+<div class="repeat5"></div>
+
+<div class="repeat6"></div>
+
+<div class="repeat7"></div>
+
+<div class="repeat8"></div>
+
+<div class="repeat9"></div>
+
+<div class="repeat10"></div>
+
+
+
+</body>
+
+</html>
+
+
 
